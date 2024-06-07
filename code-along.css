@@ -10,6 +10,9 @@
 
 /* 4. The pics are too close to each other. Add 5px of margin to each one. */
 
+.header{
+    border: 5px solid black
+}
 
 .row1 {
     display: flex;
@@ -37,4 +40,7 @@ h1 {
 
 img {
     width: 200px;
+    border: 5px solid yellow;
+    padding: 5px;
+    margin: 5px;
 }
